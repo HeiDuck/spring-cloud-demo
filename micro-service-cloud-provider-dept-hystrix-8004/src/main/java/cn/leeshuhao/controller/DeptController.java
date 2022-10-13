@@ -16,6 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 public class DeptController {
+    @Autowired
+    private DeptService deptService;
+
     @Value("${server.port}")
     private String serverPort;
 
