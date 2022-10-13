@@ -11,7 +11,7 @@ spring:
       profile: dev  #配置文件的后缀名  config-dev.yml 中的 dev
       #这里不要忘记添加 http:// 否则无法读取
       uri: http://localhost:3344 #spring cloud 配置中心地址
-  ##### RabbitMQ 相关配置，15672 是web 管理界面的端口，5672 是 MQ 的访问端口###########
+  ##### RabbitMQ 相关配置，15672 是 web 管理界面的端口，5672 是 MQ 的访问端口###########
   rabbitmq:
     host: 127.0.0.1
     port: 5672
